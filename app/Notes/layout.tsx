@@ -6,7 +6,6 @@ export default async function NotesLayout({ children }: { children: React.ReactN
     return (
         <section className="flex">
             <Notes child={children} />
-            {children}
         </section>
     );
 }
